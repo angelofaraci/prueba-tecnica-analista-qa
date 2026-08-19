@@ -9,8 +9,3 @@ export async function loginAsStandardUser(driver: WebDriver): Promise<InventoryP
   await loginPage.login(STANDARD_USER);
   return new InventoryPage(driver);
 }
-
-const x = 'doble comilla';        // viola @stylistic/quotes (single)
-const y: any = 5;                  // viola @typescript-eslint/no-explicit-any
-if (x == y) {}                    // viola eqeqeq
-function f(unused: string) {}     // viola @typescript-eslint/no-unused-vars
