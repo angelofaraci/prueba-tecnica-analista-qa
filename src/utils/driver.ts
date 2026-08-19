@@ -17,6 +17,11 @@ export function buildDriver(options: BuildDriverOptions = {}): Promise<WebDriver
   chromeOptions.addArguments('--disable-gpu');
   chromeOptions.addArguments('--no-sandbox');
   chromeOptions.addArguments('--disable-dev-shm-usage');
+  chromeOptions.setUserPreferences({
+    credentials_enable_service: false,
+    'profile.password_manager_enabled': false,
+    'profile.password_manager_leak_detection': false,
+  });
 
   return new Builder().forBrowser('chrome').setChromeOptions(chromeOptions).build();
 }
