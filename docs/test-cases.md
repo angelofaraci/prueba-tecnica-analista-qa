@@ -254,7 +254,7 @@ Screenshot de la pantalla "Checkout: Complete!" con el mensaje de confirmación 
 - **Precondición:** Usuario logueado como standard_user en la página https://www.saucedemo.com/inventory.html
 
 **Pasos:**
-1. Clickear el ícono de menú (☰) en la esquina superior izquierda.
+1. Clickear el ícono de menú en la esquina superior izquierda.
 2. Clickear la opción "Logout".
 3. Con la sesión ya cerrada, escribir directamente en el navegador la URL https://www.saucedemo.com/inventory.html.
 
