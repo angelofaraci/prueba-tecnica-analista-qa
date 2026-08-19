@@ -27,7 +27,7 @@ describe('Cart', function () {
     await inventoryPage.addProductToCart(PRODUCTS.BACKPACK);
     await inventoryPage.addProductToCart(PRODUCTS.BIKE_LIGHT);
 
-    expect(await inventoryPage.getCartBadgeCount()).to.equal(1);
+    expect(await inventoryPage.getCartBadgeCount()).to.equal(2);
   });
 
   it('shows both added products in the cart', async function () {

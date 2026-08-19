@@ -33,7 +33,7 @@
     "@types/selenium-webdriver": "^4.35.6",
     "chai": "^4.5.0",
     "cross-env": "^7.0.3",
-    "eslint": "^9.39.5",
+    "eslint": "^10.0.1",
     "globals": "^17.11.0",
     "jiti": "^2.7.0",
     "mocha": "^11.8.0",
