@@ -1,0 +1,7 @@
+node_modules/
+dist/
+screenshots/*.png
+!screenshots/.gitkeep
+.env
+*.log
+.atl/
